@@ -1,0 +1,101 @@
+<bookcase>
+	<shelf>
+		<box>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+		</box>
+		<box>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+			<remote></remote>
+		</box>
+		<box>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+			<box></box>
+		</box>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+			<mouse></mouse>
+		</box>
+		<box>
+			<plastic_bag></plastic_bag>
+		</box>
+		<box>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+			<mac_charger><mac_charger>
+		</box>
+		<box>
+			<misc_electronic></misc_electronic>
+			<misc_electronic></misc_electronic>
+			<misc_electronic></misc_electronic>
+			<misc_electronic></misc_electronic>
+			<misc_electronic></misc_electronic>
+			<misc_electronic></misc_electronic>
+		</box>
+		<box>
+			<cf_card_reader></cf_card_reader>
+			<cf_card_reader></cf_card_reader>
+			<cf_card_reader></cf_card_reader>
+			<cf_card_reader></cf_card_reader>
+		</box>
+	</shelf>
+	<shelf>
+		
+	</shelf>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
