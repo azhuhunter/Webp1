@@ -1,3 +1,12 @@
+/*INDEX STYLE*/
+
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
 /*------------iPhone 6, 6s, 7, 8---------*/
 /* Portrait */
 @media only screen
@@ -5,3 +14,4 @@
 	and(max-device-width: 667px)
 	and(-webkit-min-device-pixel-ratio: 2)
 	and(orientation: potrait)
+	
