@@ -1,12 +1,13 @@
 /*INDEX STYLE*/
 /* For desktop: */
 body{
-	background-image: linear-gradient(to bottom, rgba(0,0,0), rgba(50,50,50), rgba(100,100,100), rgba(150,150,150), rgba(200,200,200));
+	background-color: #2A2A2A;
 	color: #f2ee7c;
 	text-align: center;
 	font-family: "Brush Script MT", cursive;
 }
 p{
+	background-image: linear-gradient(to bottom, rgba(0,0,0), rgba(50,50,50), rgba(100,100,100), rgba(150,150,150), rgba(200,200,200));
 	text-align: center;
 }
 h1{
