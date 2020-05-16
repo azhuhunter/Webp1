@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("img/back.png");
+  background-image: url("img/front.png");
   background-color: #482866;
 }
 
@@ -12,7 +12,7 @@ h1 {
   font-size: 48px;
   word-break: break-all;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 
