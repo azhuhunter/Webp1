@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+   </head>
+  <body>
+	<h1> Combat Classes of FF14 </h1>
+	
+	<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('healer')"> Healer</button>
+  <button class="btn" onclick="filterSelection('tank')"> Tank</button>
+  <button class="btn" onclick="filterSelection('dps')"> DPS</button>
+	</div>
+	
+
+	<div class="row">
+		<div class ="column healer">
+		<a href="img/conjurer.png" class="image">
+            <img src="img/conjurer.png" alt="">
+         </a>
+		 </div>
+		 
+		 <div class ="column healer">
+		<a href="img/whitemage.png" class="image">
+            <img src="img/whitemage.png" alt="">
+         </a>
+		 </div>
+		 
+		 <div class ="column healer">
+		<a href="img/scholar.png" class="image">
+            <img src="img/scholar.png" alt="">
+         </a>
+		 </div>
+		 
+		 <div class ="column healer">
+		<a href="img/astrologian.png" class="image">
+            <img src="img/astrologian.png" alt="">
+         </a>
+		 </div>
+		 
+		<div class="column tank">
+         <a href="img/gladiator.png" class="image">
+            <img src="img/gladiator.png" alt="">
+          </a>
+		  </div>
+		  
+		 <div class="column tank">
+		<a href="img/marauder.png" class="image">
+            <img src="img/marauder.png" alt="">
+          </a>
+		  </div>
+		
+		<div class="column tank">
+		<a href="img/paladin.png" class="image">
+            <img src="img/paladin.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column tank">
+		<a href="img/warrior.png" class="image">
+            <img src="img/warrior.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column tank">
+		<a href="img/darkknight.png" class="image">
+            <img src="img/darkknight.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column tank">
+		<a href="img/gunbreaker.png" class="image">
+            <img src="img/gunbreaker.png" alt="">
+          </a>
+		  </div>
+		  
+		<div class="column dps">
+        <a href="img/archer.png" class="image">
+            <img src="img/archer.png" alt="">
+          </a>
+		  </div>
+		
+		<div class="column dps">
+          <a href="img/arcanist.png" class="image">
+            <img src="img/arcanist.png" alt="">
+          </a>
+		  </div>
+
+		<div class="column dps">
+          <a href="img/lancer.png" class="image">
+            <img src="img/lancer.png" alt="">
+          </a>
+		  </div>
+
+          <div class="column dps">
+          <a href="img/pugilist.png" class="image">
+            <img src="img/pugilist.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+          <a href="img/rogue.png" class="image">
+            <img src="img/rogue.png" alt="">
+          </a>
+		  </div>
+		 
+			<div class="column dps">
+          <a href="img/thaumaturge.png" class="image">
+            <img src="img/thaumaturge.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/bard.png" class="image">
+            <img src="img/bard.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/dragoon.png" class="image">
+            <img src="img/dragoon.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/monk.png" class="image">
+            <img src="img/monk.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/blackmage.png" class="image">
+            <img src="img/blackmage.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/summoner.png" class="image">
+            <img src="img/summoner.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/ninja.png" class="image">
+            <img src="img/ninja.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/machinist.png" class="image">
+            <img src="img/machinist.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/redmage.png" class="image">
+            <img src="img/redmage.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/samurai.png" class="image">
+            <img src="img/samurai.png" alt="">
+          </a>
+		  </div>
+		  
+		  <div class="column dps">
+        <a href="img/dancer.png" class="image">
+            <img src="img/dancer.png" alt="">
+          </a>
+		  </div>
+		  </div>
+	</div>
+	
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+	</body>
+</html>
+		
